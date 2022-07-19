@@ -1491,6 +1491,16 @@ video {
     line-height: 2rem;
   }
 
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:leading-none {
     line-height: 1;
   }
@@ -1666,6 +1676,11 @@ video {
     line-height: 2.5rem;
   }
 
+  .md\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
   .md\:text-indigo-200 {
     --tw-text-opacity: 1;
     color: rgb(199 210 254 / var(--tw-text-opacity));
@@ -1753,6 +1768,11 @@ video {
 
   .lg\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
 }
