@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <!-- First Header -->
+    <!-- Start Header -->
     <header class="w-full px-3 antialiased bg-header select-none lg:px-6">
         <div class="mx-auto max-w-7xl">
             <nav class="flex items-center justify-center w-full h-24" x-data="{ showMenu: false }">
@@ -24,8 +24,8 @@
                         <div class="flex-col w-full h-full overflow-hidden bg-white rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
                             <div class="flex flex-col items-center justify-center w-full h-full mt-12 text-center text-indigo-700 md:text-indigo-200 md:w-2/3 md:mt-0 md:flex-row md:items-center">
                                 <a href="#about" class="inline-block px-4 py-2 mx-2 font-medium text-left text-indigo-700 md:text-white md:px-0 lg:mx-3 md:text-center hover:text-purple-500">About</a>
-                                <a href="#service" class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 md:hover:text-purple-500 lg:mx-3 md:text-center">Service</a>
-                                <!-- <a href="#gallery" class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 hover:text-indigo-800 md:hover:text-purple-500 lg:mx-3 md:text-center">Gallery</a> -->
+                                <a href="#gallery" class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 md:hover:text-purple-500 lg:mx-3 md:text-center">Gallery</a>
+                                <a href="#service" class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 hover:text-indigo-800 md:hover:text-purple-500 lg:mx-3 md:text-center">Services</a>
                                 <a href="#contact" class="inline-block px-4 py-2 mx-2 font-medium text-left md:px-0 hover:text-indigo-800 md:hover:text-purple-500 lg:mx-3 md:text-center">Contact</a>
                             </div>
                             <div class="flex flex-col items-center justify-end w-full h-full pt-4 md:w-1/3 md:flex-row md:py-0">
@@ -61,7 +61,7 @@
     </header>
     <!-- End Header -->
 
-    <!-- First profile -->
+    <!-- Start profile -->
     <section class="w-full bg-about pt-7 pb-7 md:pt-20 md:pb-24" id="about">
 
         <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-white border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16 flex-content">
@@ -166,15 +166,45 @@
                         </span> Jquery.
                     </li>
                 </ul>
-
+              
     </section>
+    
     <!-- End Profile -->
 
-    <!-- First Service -->
+    <!-- Start Gallery -->
+
+    <section class="py-20 bg-zinc-100" id="gallery">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-full -mt-20" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L34.3,218.7C68.6,181,137,107,206,101.3C274.3,96,343,160,411,170.7C480,181,549,139,617,144C685.7,149,754,203,823,202.7C891.4,203,960,149,1029,138.7C1097.1,128,1166,160,1234,149.3C1302.9,139,1371,85,1406,58.7L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+        <div class="container max-w-6xl mx-auto" data-aos="fade-right">
+            <h4 class="w-full lg:text-8xl md:text-5xl sm:text-6xl text-blue-400 font-bold text-center" data-aos="fade-up">Gallery</h4>
+            <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0 cursor-pointer">
+                <div class="h-96 flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4  bg-[url('/img/gallery.jpg')] bg-cover drop-shadow-xl hover:bg-blue-400 hover:text-white sm:rounded-xl" data-aos="flip-left">
+                </div>
+                
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-[url('/img/gallery1.jpg')] bg-cover drop-shadow-xl hover:bg-blue-400 hover:text-white sm:rounded-xl" data-aos="flip-up">
+                </div>
+
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-8 bg-[url('/img/gallery2.jpg')] bg-cover drop-shadow-xl hover:bg-blue-400 hover:text-white sm:rounded-xl" data-aos="flip-right">
+                </div>
+
+                <div class="h-96 flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-8 bg-[url('/img/gallery3.jpg')] bg-cover drop-shadow-xl hover:bg-blue-400 hover:text-white sm:rounded-xl" data-aos="flip-right">
+                </div>
+
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-8 bg-[url('/img/gallery4.jpg')] bg-cover drop-shadow-xl hover:bg-blue-400 hover:text-white sm:rounded-xl" data-aos="flip-down">
+                </div>
+
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-8 bg-[url('/img/gallery5.jpg')] bg-cover drop-shadow-xl hover:bg-blue-400 hover:text-white sm:rounded-xl" data-aos="flip-left">
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+    <!-- End Gallery -->
+
+    <!-- Start Service -->
     <section class="py-20 bg-future" id="service">
-        <svg class="svg-future " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#fbd46d" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,245.3C384,267,480,277,576,245.3C672,213,768,139,864,112C960,85,1056,107,1152,133.3C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-full -mt-20" viewBox=" 0 0 1440 320"><path fill="#f4f4f5" fill-opacity="1" d="M0,64L60,80C120,96,240,128,360,160C480,192,600,224,720,197.3C840,171,960,85,1080,53.3C1200,21,1320,43,1380,53.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
         <div class="container max-w-6xl mx-auto" data-aos="fade-right">
             <h4 class="w-full lg:text-8xl md:text-5xl sm:text-6xl text-white font-bold text-center" data-aos="fade-up">Service</h4>
             <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0 cursor-pointer">
@@ -273,7 +303,7 @@
     </section>
     <!-- End Service -->
 
-    <!-- First Contact -->
+    <!-- Start Contact -->
     <section class="w-full bg-white bg-form flex flex-col" id="contact">
         <svg class="svg-services" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#fbd46d" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,245.3C384,267,480,277,576,245.3C672,213,768,139,864,112C960,85,1056,107,1152,133.3C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -332,7 +362,7 @@
     </section>
     <!-- End Contact -->
 
-    <!-- First Footer -->
+    <!-- Start Footer -->
     <footer class="bg-white bg-footer">
         <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
             <nav class="flex flex-wrap justify-center -mx-5 -my-2">
