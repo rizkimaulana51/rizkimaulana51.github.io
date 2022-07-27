@@ -2,4 +2,4 @@
 
 you can see my website personal on this 🚀 [DEMO](https://rizkimaulana51.github.io/).
 
-This website was build with [tailwindcss](tailwindcss.com).
+This website was build with [tailwindcss](https://tailwindcss.com).
